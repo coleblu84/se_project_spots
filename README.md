@@ -31,13 +31,3 @@ Figma link
 Here is the Video Brief link
 
 - Deployment Link: Coming soon!!!
-
-**Images**
-
-![avatar](avatar-1.jpg)
-![snow](1-photo-by-moritz-feldmann-from-pexels.jpg)
-![cafe](2-photo-by-ceiline-from-pexels.jpg)
-![restauant](3-photo-by-tubanur-dogan-from-pexels.jpg)
-![bridge](4-photo-by-maurice-laschet-from-pexels.jpg)
-![tunnel](5-photo-by-van-anh-nguyen-from-pexels.jpg)
-![hosue](6-photo-by-moritz-feldmann-from-pexels.jpg)
