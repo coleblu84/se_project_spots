@@ -1,26 +1,43 @@
-# Project 3: Spots
+# Spots
 
-### Overview
+**Description**
 
-- Intro
-- Figma
-- Images
+This is an image sharing site showing different spots around the world. It is an interactive social media web application where users can add and remove photos and make a few minor adjustments to their proifles.
 
-**Intro**
+**Tech Stack**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+- HTML
 
-**Figma**
+I used Semantic tags wishly to get a organize content logically and clearly, making it easier for both humans and machines to understand the struucture. This has got me to better under when to use div, h1, and p tags. Introducing more tags to include button, section, and the ul and il.
 
-- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+- CSS
+
+Who does not like making things look good. Adding in margins and padding. Using BEM methodolgy to ensure a nice and smooth professinal webpage. Knowing how to use the hover effert has been fun. Here is where Flexbox and grid comes into perspective.
+
+- Responsive Design
+
+Putting @media to use for the first time was fun and challenging. Watching how @media can really change a look and style, really made a world of difference.
+
+**Deployment**
+
+This webgae is deployed to GitHub Pages
+
+- Deployment Link: https://github.com/coleblu84/se_project_spots
+
+Figma link
+
+- Deployment Link: https://www.figma.com/design/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project--Spots?node-id=2-60&t=QTNsSwm2SarkhJtW-0
+
+Here is the Video Brief link
+
+- Deployment Link: Coming soon!!!
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
-
-Good luck and have fun!
-
-**GITHUB**
-
-link to the project on my GITHub account:
-http://coleblu84.github.io/se_projects_spots
+![avatar](avatar-1.jpg)
+![snow](1-photo-by-moritz-feldmann-from-pexels.jpg)
+![cafe](2-photo-by-ceiline-from-pexels.jpg)
+![restauant](3-photo-by-tubanur-dogan-from-pexels.jpg)
+![bridge](4-photo-by-maurice-laschet-from-pexels.jpg)
+![tunnel](5-photo-by-van-anh-nguyen-from-pexels.jpg)
+![hosue](6-photo-by-moritz-feldmann-from-pexels.jpg)
