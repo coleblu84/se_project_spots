@@ -18,7 +18,7 @@ Who does not like making things look good. Adding in margins and padding. Using 
 
 Putting @media to use for the first time was fun and challenging. Watching how @media can really change a look and style, really made a world of difference.
 
-**Deployment**
+**Deployments**
 
 This webgae is deployed to GitHub Pages
 
@@ -28,6 +28,14 @@ Figma link
 
 - Deployment Link: https://www.figma.com/design/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project--Spots?node-id=2-60&t=QTNsSwm2SarkhJtW-0
 
-Here is the Video Brief link
+Google drive video brief link
 
-- Deployment Link: Coming soon!!!
+- Deployment Link: https://drive.google.com/file/d/1iagKdSniVXz_POyMIA7_uyAnK3csFO7q/view?usp=drive_link
+
+**Iamges**
+
+![avatar](images/avatar.jpg)
+![snow](images/1-photo-by-moritz-feldmann-from-pexels.jpg)
+![cafe](images/2-photo-by-ceiline-from-pexels.jpg)
+![outside](images/3-photo-by-tubanur-dogan-from-pexels.jpg)
+![bridge](images/4-photo-by-maurice-laschet-from-pexels.jpg)

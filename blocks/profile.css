@@ -8,6 +8,8 @@
   margin-right: 20px;
   height: 190px;
   width: 190px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .profile__column {
@@ -38,15 +40,15 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 420px;
+  opacity: 0.7;
 }
 
 .profile__edit-btn {
   display: flex;
   margin-top: auto;
+  padding: 0;
   font-weight: 500;
   line-height: 1;
-  width: 107.34px;
-  height: 16px;
   gap: 8px;
   opacity: 0.7;
   background: transparent;
@@ -71,10 +73,10 @@
   border-radius: 8px;
   color: #fcf5e5;
   text-wrap: nowrap;
+  border: none;
 }
 
 .profile__add-btn:hover {
-  background: #212121;
   opacity: 0.8;
   cursor: pointer;
 }
