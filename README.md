@@ -18,13 +18,17 @@ Who does not like making things look good. Adding in margins and padding. Using 
 
 Putting @media to use for the first time was fun and challenging. Watching how @media can really change a look and style, really made a world of difference.
 
+**_JavaScript_**
+
+During Sprint 4 I added modal blocks and styled them. Then put JavaScript to work. Making the Edit profile and New post button interactve and working. This was with the help of using const, function, and addEventListener. Those were all helpful tools to help me learn how to make JavaScript work with me. 
+
 ### Deployment & Links
 
 This webgae is deployed to GitHub Pages
 
 [GitHub Pages](https://coleblu84.github.io/se_project_spots/)
 
-[Figma link](https://www.figma.com/design/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project--Spots?node-id=2-60&t=NROXWcRr2aCVufDF-0)
+[Figma](https://www.figma.com/design/rGnA0eBcxYVOpA4bxmqlyu/Sprint-4-Project-Spots---March-2025?node-id=0-1&p=f&t=260DH13kcY8J8js1-0)
 
 [Video brief link](https://drive.google.com/file/d/1iagKdSniVXz_POyMIA7_uyAnK3csFO7q/view?usp=drive_link)
 
