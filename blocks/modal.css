@@ -120,9 +120,7 @@
 
 @media screen and (max-width: 627px) {
   .modal__container {
-    border-radius: 8px;
-    gap: 24px;
-    padding: 12px;
+    padding: 22px 12px 22px;
     position: relative;
   }
 
@@ -135,13 +133,13 @@
   .modal__label {
     font-size: 16px;
     line-height: 110%;
+    margin-bottom: 24px;
   }
 
   .modal__submit-btn {
     width: 100%;
     max-width: none;
     height: 52px;
-    border-radius: 8px;
     gap: 8px;
     padding: 16px 12px;
     box-sizing: border-box;
@@ -149,5 +147,9 @@
   .modal__close-btn {
     top: 12px;
     right: 12px;
+  }
+
+  .modal__input {
+    font-size: 16px;
   }
 }
