@@ -8,7 +8,7 @@ This is an image sharing site showing different spots around the world. It is an
 
 **_HTML_**
 
-I used Semantic tags wishly to get a organize content logically and clearly, making it easier for both humans and machines to understand the struucture. This has got me to better under when to use div, h1, and p tags. Introducing more tags to include button, section, and the ul and il.
+I used Semantic tags wishly to get a organize content logically and clearly, making it easier for both humans and machines to understand the struucture. This has got me to better under when to use div, h1, and p tags. Introducing more tags to include button, section, and the ul and il. The use of template to reduce mulitple lines of code.
 
 **_CSS_**
 
@@ -20,7 +20,13 @@ Putting @media to use for the first time was fun and challenging. Watching how @
 
 **_JavaScript_**
 
-During Sprint 4 I added modal blocks and styled them. Then put JavaScript to work. Making the Edit profile and New post button interactve and working. This was with the help of using const, function, and addEventListener. Those were all helpful tools to help me learn how to make JavaScript work with me. 
+During Sprint 4 I added modal blocks and styled them. Then put JavaScript to work. Making the Edit profile and New post button interactve and working. This was with the help of using const, function, and addEventListener. Those were all helpful tools to help me learn how to make JavaScript work with me. Bulding the modal and making them function corretly.
+
+### What has worked & What to work on
+
+- Since the start of this project it has helped me understand how to and why Responsive Design and JavaScript are importmant to coding. I uinderstand more from doing then reading. Building this porject has done help me with learning it.
+
+- Things to improve will be getting a better understanding of when and where to use const, function, document, queryselector, and addEventListener. Making sure that everything is in the right order.
 
 ### Deployment & Links
 
