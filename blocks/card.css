@@ -11,6 +11,11 @@
   border-radius: 8px;
 }
 
+.card__image:hover {
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
 .card__content {
   display: flex;
   align-items: center;
@@ -45,6 +50,7 @@
 .card__like-btn_active {
   opacity: 100%;
   background-image: url(../images/Liked-heart.svg);
+  background-repeat: no-repeat;
 }
 
 .card__like-btn:hover {
