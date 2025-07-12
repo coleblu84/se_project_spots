@@ -13,7 +13,6 @@
 
 .card__image:hover {
   cursor: pointer;
-  filter: brightness(80%);
 }
 
 .card__content {
