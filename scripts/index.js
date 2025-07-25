@@ -89,6 +89,7 @@ function getCardElement(data) {
 }
 
 function handleEscapeKey(event) {
+  let activeModals = null;
   activeModals =
     event.key === "Escape" ? document.querySelector(".modal_is-opened") : null;
   if (activeModals) {
