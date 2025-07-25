@@ -40,8 +40,8 @@ const ProfileDescriptionInput = ProfileModal.querySelector(
 
 const NewPostBtn = document.querySelector(".profile__add-btn");
 const NewPostModal = document.querySelector("#new-post-modal");
+const newPostSubmitBtn = NewPostModal.querySelector(".modal__submit-btn");
 const newPostCloseBtn = NewPostModal.querySelector(".modal__close-btn");
-
 const NewPostForm = NewPostModal.querySelector(".modal__form");
 const CardImageInput = NewPostModal.querySelector("#card-image-input");
 const CardCaptionInput = NewPostModal.querySelector("#card-caption-input");
@@ -88,34 +88,47 @@ function getCardElement(data) {
   return cardElement;
 }
 
+function handleEscapeKey(event) {
+  activeModals =
+    event.key === "Escape" ? document.querySelector(".modal_is-opened") : null;
+  if (activeModals) {
+    closeModal(activeModals);
+  }
+}
+
 function openModal(modal) {
   modal.classList.add("modal_is-opened");
+  document.addEventListener("keydown", handleEscapeKey);
 }
 
 function closeModal(modal) {
   modal.classList.remove("modal_is-opened");
+  document.removeEventListener("keydown", handleEscapeKey);
 }
 
 ProfileBtn.addEventListener("click", function () {
   ProfileNameInput.value = profileNameEL.textContent;
   ProfileDescriptionInput.value = profileDescriptionEL.textContent;
+  // resetValidation(ProfileForm, [ProfileNameInput, ProfileDescriptionInput]);
+  // ^ This line is commented out because I don't see it in my project tasks to build a function for this.
   openModal(ProfileModal);
-});
-
-ProfileCloseBtn.addEventListener("click", function () {
-  closeModal(ProfileModal);
 });
 
 NewPostBtn.addEventListener("click", function () {
   openModal(NewPostModal);
 });
 
-newPostCloseBtn.addEventListener("click", function () {
-  closeModal(NewPostModal);
-});
+const modals = document.querySelectorAll(".modal");
 
-previewModalCloseBtn.addEventListener("click", function () {
-  closeModal(previewModal);
+modals.forEach((modal) => {
+  document.addEventListener("click", function (event) {
+    if (
+      event.target.classList.contains("modal__close-btn") ||
+      event.target.classList.contains("modal")
+    ) {
+      closeModal(modal);
+    }
+  });
 });
 
 function handleEditProfileSubmit(evt) {
@@ -137,6 +150,7 @@ function handleNewPostSubmit(evt) {
   cardsList.prepend(CardElement);
 
   NewPostForm.reset();
+  disableButton(newPostSubmitBtn, settings);
   closeModal(NewPostModal);
 }
 
