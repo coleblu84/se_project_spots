@@ -110,12 +110,12 @@ function closeModal(modal) {
 ProfileBtn.addEventListener("click", function () {
   ProfileNameInput.value = profileNameEL.textContent;
   ProfileDescriptionInput.value = profileDescriptionEL.textContent;
-  // resetValidation(ProfileForm, [ProfileNameInput, ProfileDescriptionInput]);
-  // ^ This line is commented out because I don't see it in my project tasks to build a function for this.
+  resetValidation(ProfileForm, settings);
   openModal(ProfileModal);
 });
 
 NewPostBtn.addEventListener("click", function () {
+  resetValidation(NewPostForm, settings);
   openModal(NewPostModal);
 });
 
