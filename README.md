@@ -22,11 +22,18 @@ Putting @media to use for the first time was fun and challenging. Watching how @
 
 During Sprint 4 I added modal blocks and styled them. Then put JavaScript to work. Making the Edit profile and New post button interactve and working. This was with the help of using const, function, and addEventListener. Those were all helpful tools to help me learn how to make JavaScript work with me. Bulding the modal and making them function corretly.
 
+### Other Tech Used
+**_Destruction_**
+
+**_Webpack_**
+
+**_API_**
+
 ### What has worked & What to work on
 
-- Since the start of this project it has helped me understand how to and why Responsive Design and JavaScript are importmant to coding. I uinderstand more from doing then reading. Building this porject has done help me with learning it.
+- Since the start of this project it has helped me understand how to and why Responsive Design and JavaScript are importmant to coding. I uinderstand more from doing then reading. Building this porject has done help me with learning it. The project as moved to introduce new methods on JavaScript.  To include webpack, API, and Destruction. 
 
-- Things to improve will be getting a better understanding of when and where to use const, function, document, queryselector, and addEventListener. Making sure that everything is in the right order.
+- Things to improve will be getting a better understanding of when and where to use const, function, document, queryselector, and addEventListener. Making sure that everything is in the right order. As we moved forward in the project, I have run into issues of destruction and API.This is going to be a big area for me to keep improving on. More in depth understanding of API's and how to use them. better understanding o f the eventlistener and how to use them. Debugging is another area that i am going to work on. 
 
 ### Deployment & Links
 
@@ -40,8 +47,8 @@ This webgae is deployed to GitHub Pages
 
 ### Iamges
 
-![avatar](images/avatar.jpg)
-![snow](images/1-photo-by-moritz-feldmann-from-pexels.jpg)
-![cafe](images/2-photo-by-ceiline-from-pexels.jpg)
-![outside](images/3-photo-by-tubanur-dogan-from-pexels.jpg)
-![bridge](images/4-photo-by-maurice-laschet-from-pexels.jpg)
+![avatar](src/images/avatar.jpg)
+![snow](src/images/1-photo-by-moritz-feldmann-from-pexels.jpg)
+![cafe](src/images/2-photo-by-ceiline-from-pexels.jpg)
+![outside](src/images/3-photo-by-tubanur-dogan-from-pexels.jpg)
+![bridge](src/images/4-photo-by-maurice-laschet-from-pexels.jpg)
