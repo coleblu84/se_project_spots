@@ -189,7 +189,6 @@ ProfileBtn.addEventListener("click", function () {
 
 NewPostBtn.addEventListener("click", function () {
   openModal(NewPostModal);
-  resetValidation(NewPostForm, settings);
 });
 
 avatarModalBtn.addEventListener("click", () => {
@@ -272,6 +271,7 @@ function handleNewPostSubmit(evt) {
       cardsList.prepend(CardElement);
       NewPostForm.reset();
       disableButton(newPostSubmitBtn, settings);
+      resetValidation(NewPostForm, settings);
       closeModal(NewPostModal);
     })
     .catch(console.error)
