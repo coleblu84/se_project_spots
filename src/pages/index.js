@@ -188,8 +188,8 @@ ProfileBtn.addEventListener("click", function () {
 });
 
 NewPostBtn.addEventListener("click", function () {
-  resetValidation(NewPostForm, settings);
   openModal(NewPostModal);
+  resetValidation(NewPostForm, settings);
 });
 
 avatarModalBtn.addEventListener("click", () => {
@@ -224,6 +224,8 @@ function handleAvatarSubmitBtn(evt) {
     .editAvatarInfo(avatarInput.value)
     .then((data) => {
       profileAvatarEl.src = data.avatar;
+      avatarForm.reset();
+      avatarSubmitBtn.disabled = true;
       closeModal(avatarModal);
     })
     .catch(console.error)
